@@ -19,7 +19,6 @@ public class Solution_4012_요리사 {
             N = Integer.parseInt(br.readLine());
             R = N/2; //각 A,B가 갖는 음식 개수 R
             p = new int[N]; //전체 음식 
-            
             //N*N 데이터 입력 받기
             data = new int[N][N];
             for(int j=0;j<N;j++) {
@@ -40,7 +39,6 @@ public class Solution_4012_요리사 {
             System.out.printf("#%d %d",i,answer);
             System.out.println();
         }
-
     }
 	static void combi(int cnt, int start) {
 		if(cnt==R) {
